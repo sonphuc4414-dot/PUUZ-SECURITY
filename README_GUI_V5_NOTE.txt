@@ -1,1 +1,0 @@
-GUI V5 notes: responsive soft-light settings UI, animated open/close, custom visual buttons backed by vanilla ButtonWidget hit-testing, configurable accent/text/background colors, selectable PNG/JPG backgrounds, no blur.
