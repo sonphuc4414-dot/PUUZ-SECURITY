@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "puuz_map_shield",
+  "version": "${version}",
+  "name": "PUUZ SECURITY",
+  "description": "PUUZ SECURITY — client-side Map Art protection and privacy tools.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.puuz.mapshield.PuuzMapShieldClient"
+    ],
+    "modmenu": [
+      "com.puuz.mapshield.integration.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "puuz_map_shield.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "suggests": {
+    "modmenu": ">=17.0.0"
+  },
+  "custom": {
+    "modmenu": {
+      "update_checker": false
+    }
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": ">=0.141.2+1.21.11"
+  },
+  "icon": "assets/puuz_map_shield/icon.png"
+}

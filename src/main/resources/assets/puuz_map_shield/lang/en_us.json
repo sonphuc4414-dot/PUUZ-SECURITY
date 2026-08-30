@@ -1,0 +1,10 @@
+{
+  "key.puuz_map_shield.toggle": "Toggle Map Shield",
+  "key.puuz_map_shield.pin": "Allow Targeted Map Art",
+  "key.puuz_map_shield.unpin": "Block Targeted Map Art",
+  "key.puuz_map_shield.settings": "Open PUUZ SECURITY Settings",
+  "key.puuz_map_shield.quick_pay": "Quick Pay (Shift + key, target player)",
+  "key.puuz_map_shield.quick_pay_amount": "Quick Pay Amount (optional)",
+  "category.puuz_map_shield.category": "PUUZ SECURITY",
+  "key.category.puuz_map_shield.category": "PUUZ SECURITY"
+}
